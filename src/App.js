@@ -49,7 +49,7 @@ function App() {
                 >
                   <img srcset={mobile.img} className="w-56 mx-auto" alt="" />
                   <div className="description my-3 text-center">
-                    <p className="font-bold text-lg">{mobile.price}</p>
+                    <p className="font-bold text-lg">Price: {mobile.price}$</p>
                     <p className="font-bold text-2xl">
                       Brand: {mobile.company}
                     </p>
